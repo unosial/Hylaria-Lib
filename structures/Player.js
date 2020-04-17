@@ -6,12 +6,18 @@ module.exports = class Player {
   constructor(data) {
     this.uuid = data.uuid;
     this.username = data.username;
-    this.history = data.history.map((h) => h.changedAt === new Date(h.changedAt));
+    this.history = data.history.map((h) => {
+      const usernameHistory = {
+        username: h.username,
+        changedAt: new Date(h.changedAt),
+      };
+      return usernameHistory;
+    });
     this.isDemo = data.demo;
     this.isMigrated = !data.legacy;
-    this.hasSkin = !!this.textures.skin;
-    this.hasCape = !!this.textures.cape;
-    this.hasOptifineCape = !!this.textures.cape;
+    this.hasSkin = !!data.textures.skin;
+    this.hasCape = !!data.textures.cape;
+    this.hasOptifineCape = !!data.textures.cape;
   }
 
   /**
