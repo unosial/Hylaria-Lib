@@ -4,10 +4,10 @@ module.exports = class Server {
    * @param {*} data Data of the server
    */
   constructor(data) {
-    this.address = data.address;
-    this.port = data.port;
-    this.version = data.version;
-    this.protocol = data.protocol;
+    this.address = data.server.address;
+    this.port = data.server.port;
+    this.version = data.server.version;
+    this.protocol = data.server.protocol;
     this.motd = data.motd;
     this.onlinePlayers = data.players.online;
     this.maxPlayers = data.players.max;
