@@ -1,0 +1,18 @@
+{
+  "name": "hylaria-lib",
+  "version": "1.0.0",
+  "description": "The official API lib Hylaria",
+  "main": "index.js",
+  "repository": "https://github.com/unosial/Hylaria-Lib.git",
+  "author": "arch <sylvain@unosial.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "eslint": "5.16.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "2.20.1"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
