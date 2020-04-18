@@ -1,10 +1,16 @@
-<center>
+<div align="center">
 
 <img src="https://unosial.com/src/images/logo/logo.png" width="100px">
+<br>
+<img src="https://api.travis-ci.org/unosial/Hylaria-Lib.svg">
+
+<img src="https://david-dm.org/unosial/Hylaria-Lib/status.svg">
+
+<img src="https://discordapp.com/api/guilds/455308441360138242/embed.png">
 
 # Hylaria-Lib
 
-</center>
+</div>
 
 ## Table of contents
 
@@ -157,8 +163,24 @@ Player.getSkull(128, true)
 ```js
 // You can set size of body
 // and also chose to see layer or not
-Player.getSkull(128, true)
+Player.getBody(128, true)
 // -> https://mc.unosial.com/players/body/9581c43c2b9d4fbdb3de91115363c3ce?armor=true&size=128
+```
+
+#### Get cape of player
+```js
+// You can set size of body
+// and also chose to see layer or not
+Player.getCape(128, true)
+// -> null (i don't have a cape)
+```
+
+#### Get optifine cape of player
+```js
+// You can set size of body
+// and also chose to see layer or not
+Player.getOptifineCape(128, true)
+// -> null (i don't have an optifine cape)
 ```
 
 ### Server Method:
