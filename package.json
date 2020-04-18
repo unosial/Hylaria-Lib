@@ -21,7 +21,7 @@
     "axios": "^0.19.2"
   },
   "scripts": {
-    "test": "mocha",
-    "coverage": "nyc npm run test"
+    "coverage": "mocha",
+    "test": "nyc npm run coverage"
   }
 }
