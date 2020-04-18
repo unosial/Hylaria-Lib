@@ -37,6 +37,8 @@ module.exports = class Player {
    */
   getSkull(size = 128, layer = false) {
     if (!this.hasSkin) return null;
+    if (Number.isNaN(size) || size < 8 || size > 2048) throw TypeError('Size must be a number under 8 and 2048');
+    if (typeof layer !== 'boolean') throw TypeError('Layer parameter must be a boolean');
     return `https://mc.unosial.com/players/skull/${this.uuid}?helmet=${layer}&size=${size}`;
   }
 
@@ -48,6 +50,8 @@ module.exports = class Player {
    */
   getBody(size = 128, layer = false) {
     if (!this.hasSkin) return null;
+    if (Number.isNaN(size) || size < 8 || size > 2048) throw TypeError('Size must be a number under 8 and 2048');
+    if (typeof layer !== 'boolean') throw TypeError('Layer parameter must be a boolean');
     return `https://mc.unosial.com/players/body/${this.uuid}?helmet=${layer}&size=${size}`;
   }
 };
