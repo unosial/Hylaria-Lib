@@ -13,6 +13,10 @@
     "eslint-plugin-import": "2.20.1"
   },
   "dependencies": {
-    "axios": "^0.19.2"
+    "axios": "^0.19.2",
+    "jshint": "^2.11.0"
+  },
+  "scripts": {
+    "test": "jshint index.js"
   }
 }
