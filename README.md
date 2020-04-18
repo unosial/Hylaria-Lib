@@ -173,3 +173,4 @@ Server.getFavicon()
 
 - Website: [mc.unosial.com](https://mc.unosial.com)
 - NPM Package page: [none](none)
+- [License](LICENSE.md)
