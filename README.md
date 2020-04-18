@@ -2,11 +2,12 @@
 
 <img src="https://unosial.com/src/images/logo/logo.png" width="100px">
 <br>
-<img src="https://api.travis-ci.org/unosial/Hylaria-Lib.svg">
 
-<img src="https://david-dm.org/unosial/Hylaria-Lib/status.svg">
-
-<img src="https://discordapp.com/api/guilds/455308441360138242/embed.png">
+<a href="https://www.npmjs.com/package/hylaria-lib"><img src="https://img.shields.io/npm/v/hylaria-lib.svg?maxAge=3600" alt="NPM version" /></a>
+<a href="https://www.npmjs.com/package/hylaria-lib"><img src="https://img.shields.io/npm/dt/hylaria-lib.svg?maxAge=3600" alt="NPM downloads" /></a>
+<a href="https://travis-ci.org/github/unosial/Hylaria-Lib"><img src="https://api.travis-ci.org/unosial/Hylaria-Lib.svg"></a>
+<a href="https://david-dm.org/unosial/Hylaria-Lib"><img src="https://david-dm.org/unosial/Hylaria-Lib/status.svg"></a>
+<a href="https://unosial.com/discord"><img src="https://discordapp.com/api/guilds/455308441360138242/embed.png"></a>
 
 # Hylaria-Lib
 
@@ -194,5 +195,5 @@ Server.getFavicon()
 ## Links
 
 - Website: [mc.unosial.com](https://mc.unosial.com)
-- NPM Package page: [none](none)
+- NPM Package page: [hylaria-lib](https://www.npmjs.com/package/hylaria-lib)
 - [License](LICENSE.md)
