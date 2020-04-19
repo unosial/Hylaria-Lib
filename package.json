@@ -9,6 +9,7 @@
   "private": false,
   "devDependencies": {
     "chai": "^4.2.0",
+    "codecov": "^3.6.5",
     "eslint": "5.16.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "2.20.1",
@@ -21,7 +22,7 @@
     "axios": "^0.19.2"
   },
   "scripts": {
-    "coverage": "mocha",
-    "test": "nyc npm run coverage"
+    "coverage": "codecov",
+    "test": "nyc --reporter=lcov mocha"
   }
 }
