@@ -11,6 +11,8 @@
 
 # Hylaria-Lib
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d53165fd0d6749969b1ab7b7e252c3f7)](https://app.codacy.com/gh/unosial/Hylaria-Lib?utm_source=github.com&utm_medium=referral&utm_content=unosial/Hylaria-Lib&utm_campaign=Badge_Grade_Dashboard)
+
 </div>
 
 ## Table of contents
