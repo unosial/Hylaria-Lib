@@ -23,6 +23,6 @@
   },
   "scripts": {
     "coverage": "codecov",
-    "test": "nyc --reporter=lcov mocha"
+    "test": "nyc --reporter=lcov mocha tests"
   }
 }
