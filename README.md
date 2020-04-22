@@ -16,10 +16,13 @@
 ## Table of contents
 
 -   [About](#about)
+
 -   [Installation](#installation)
+
 -   [Usage](#usage)
     -   [Fetch Player](#fetch-player)
     -   [Fetch Server](#fetch-server)
+
 -   [Links](#links)
 
 ## About
@@ -28,73 +31,77 @@
 
 ## Installation
 
-#### Using [npm](https://npmjs.org):
+#### Using [npm](https://npmjs.org)
 
-    $ npm i hylaria-lib
+```
+  $ npm i hylaria-lib
+```
 
-#### Using [yarn](https://yarnpkg.com/):
+#### Using [yarn](https://yarnpkg.com/)
 
-    $ yarn add hylaria-lib
+```
+  $ yarn add hylaria-lib
+```
 
 ## Getting started
 
-### Fetch Player:
+### Fetch Player
 
 ```js
-// CommonJS usage
-const hylaria = require('hylaria-lib');
+  // CommonJS usage
+  const hylaria = require('hylaria-lib');
 
-// Fetch an user named Yumekowo
-hylaria.fetchPlayer('Yumekowo')
-  .then(function (player) {
-    // can now interact with Player instance
-    console.log(player.username);
-  })
-  .catch(function (error) {
-    // handle error
-    console.error(error);
-  });
+  // Fetch an user named Yumekowo
+  hylaria.fetchPlayer('Yumekowo')
+    .then(function (player) {
+      // can now interact with Player instance
+      console.log(player.username);
+    })
+    .catch(function (error) {
+      // handle error
+      console.error(error);
+    });
 
-// You can also fetch a player by his UUID
-hylaria.fetchPlayer('9581c43c2b9d4fbdb3de91115363c3ce')
-  .then(function (player) {
-    // can now interact with Player instance
-    console.log(player.username);
-  })
-  .catch(function (error) {
-    // handle error
-    console.error(error);
-  });
+  // You can also fetch a player by his UUID
+  hylaria.fetchPlayer('9581c43c2b9d4fbdb3de91115363c3ce')
+    .then(function (player) {
+      // can now interact with Player instance
+      console.log(player.username);
+    })
+    .catch(function (error) {
+      // handle error
+      console.error(error);
+    });
 
 ```
 
-### Fetch Server:
+### Fetch Server
 
 ```js
-// CommonJS usage
-const hylaria = require('hylaria-lib');
+  // CommonJS usage
+  const hylaria = require('hylaria-lib');
 
-// Fetch Hypixel
-hylaria.fetchServer('play.hypixel.net')
-  .then(function (server) {
-    // can now interact with Server instance
-    console.log(server.address);
-  })
-  .catch(function (error) {
-    // handle error
-    console.error(error);
-  });
+  // Fetch Hypixel
+  hylaria.fetchServer('play.hypixel.net')
+    .then(function (server) {
+      // can now interact with Server instance
+      console.log(server.address);
+    })
+    .catch(function (error) {
+      // handle error
+      console.error(error);
+    });
 
-// You can also provide a server port
-hylaria.fetchServer('play.hypixel.net', 25565)
-  .then(function (server) {
-    // can now interact with Server instance
-    console.log(server.address);
-  })
-  .catch(function (error) {
-    // handle error
-    console.error(error);
-  });
+  // You can also provide a server port
+  hylaria.fetchServer('play.hypixel.net', 25565)
+    .then(function (server) {
+      // can now interact with Server instance
+      console.log(server.address);
+    })
+    .catch(function (error) {
+      // handle error
+      console.error(error);
+    });
 ```
 
 More things are available in the documentation: [docs.hylaria.com](https://docs.hylaria.com)
@@ -102,5 +109,7 @@ More things are available in the documentation: [docs.hylaria.com](https://docs.
 ## Links
 
 -   Website: [hylaria.com](https://hylaria.com)
+
 -   NPM Package page: [hylaria-lib](https://www.npmjs.com/package/hylaria-lib)
+
 -   [License](LICENSE.md)
