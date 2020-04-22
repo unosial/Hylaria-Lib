@@ -1,28 +1,25 @@
 {
-  "name": "hylaria-lib",
-  "version": "1.1.0",
-  "description": "The official API lib Hylaria",
-  "main": "index.js",
-  "repository": "https://github.com/unosial/Hylaria-Lib.git",
-  "author": "arch <sylvain@unosial.com>",
-  "license": "MIT",
-  "private": false,
-  "devDependencies": {
-    "chai": "^4.2.0",
-    "codecov": "^3.6.5",
-    "eslint": "5.16.0",
-    "eslint-config-airbnb-base": "^14.1.0",
-    "eslint-plugin-import": "2.20.1",
-    "jshint": "^2.11.0",
-    "mocha": "^7.1.1",
-    "nock": "^12.0.3",
-    "nyc": "^15.0.1"
-  },
-  "dependencies": {
-    "axios": "^0.19.2"
-  },
-  "scripts": {
-    "coverage": "codecov",
-    "test": "nyc --reporter=lcov mocha tests"
-  }
+	"author": "arch <sylvain@unosial.com>",
+	"dependencies": {
+		"axios": "^0.19.2"
+	},
+	"description": "The official API lib Hylaria",
+	"devDependencies": {
+		"eslint": "5.16.0",
+		"eslint-config-airbnb-base": "^14.1.0",
+		"eslint-plugin-import": "2.20.1",
+		"jshint": "^2.11.0"
+	},
+	"jshintConfig": {
+		"esversion": 8
+	},
+	"license": "MIT",
+	"main": "index.js",
+	"name": "hylaria-lib",
+	"private": false,
+	"repository": "https://github.com/unosial/Hylaria-Lib.git",
+	"scripts": {
+		"test": "jshint --verbose lib/"
+	},
+	"version": "1.1.0"
 }
