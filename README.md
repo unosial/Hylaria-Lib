@@ -7,7 +7,6 @@
 <a href="https://www.npmjs.com/package/hylaria-lib"><img src="https://img.shields.io/npm/dt/hylaria-lib.svg?maxAge=3600" alt="NPM downloads" /></a>
 <a href="https://travis-ci.org/github/unosial/Hylaria-Lib"><img src="https://api.travis-ci.org/unosial/Hylaria-Lib.svg"></a>
 <a href="https://david-dm.org/unosial/Hylaria-Lib"><img src="https://david-dm.org/unosial/Hylaria-Lib/status.svg"></a>
-<a href="https://codecov.io/gh/unosial/hylaria-lib/"><img src="https://codecov.io/gh/unosial/hylaria-lib/branch/master/graph/badge.svg"></a>
 <a href="https://unosial.com/discord"><img src="https://discordapp.com/api/guilds/455308441360138242/embed.png"></a>
 
 # Hylaria-Lib
@@ -21,10 +20,6 @@
 -   [Usage](#usage)
     -   [Fetch Player](#fetch-player)
     -   [Fetch Server](#fetch-server)
-    -   [Player Schema](#player-schema)
-    -   [Server Schema](#server-schema)
-    -   [Player Methods](#player-methods)
-    -   [Server Method](#server-method)
 -   [Links](#links)
 
 ## About
