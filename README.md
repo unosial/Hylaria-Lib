@@ -27,19 +27,19 @@
 
 ## About
 
-**Hylaria-Lib** is a powerful **Node.js module** that allows you to easily interact with the [Hylaria API](https://mc.unosial.com)
+**Hylaria-Lib** is a powerful **Node.js module** that allows you to easily interact with the [Hylaria API](https://hylaria.com)
 
 ## Installation
 
-#### Using [npm](https://npmjs.org)
+### Using [npm](https://npmjs.org)
 
-```
+```sh
   $ npm i hylaria-lib
 ```
 
-#### Using [yarn](https://yarnpkg.com/)
+### Using [yarn](https://yarnpkg.com/)
 
-```
+```sh
   $ yarn add hylaria-lib
 ```
 
@@ -109,7 +109,5 @@ More things are available in the documentation: [docs.hylaria.com](https://docs.
 ## Links
 
 -   Website: [hylaria.com](https://hylaria.com)
-
 -   NPM Package page: [hylaria-lib](https://www.npmjs.com/package/hylaria-lib)
-
 -   [License](LICENSE.md)
